@@ -1,0 +1,25 @@
+.presentation-section{
+    background-color: #D9A84E;
+    height: 400px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.presentation-section h1{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.presentation-section p{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.skill-container{
+    background-color: #012326;
+    height: 300px;
+}

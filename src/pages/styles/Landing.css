@@ -1,0 +1,42 @@
+.music-section{
+    background-color: #012326;
+    height: 550px;
+}
+
+.landing-image-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-image-container img{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .landing-image-container .trumpets:hover{
+    content: url(../../images/trompeta-azul.png);
+} */
+
+.dev-section{
+    background-color: #D9A84E;
+    height: 550px;
+}
+
+.padding-page{
+    height: 200px;
+    background-color:#012326;
+}
+
+
+@media screen and (max-width : 768px){
+    .landing-image-container img{
+        height: 200px;
+    }
+
+}
+
