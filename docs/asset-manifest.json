@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6057f9b8.chunk.css",
+    "main.js": "/static/js/main.ec1fd8de.chunk.js",
+    "main.js.map": "/static/js/main.ec1fd8de.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0519cf17.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0519cf17.js.map",
+    "static/css/2.95f25948.chunk.css": "/static/css/2.95f25948.chunk.css",
+    "static/js/2.d3f16378.chunk.js": "/static/js/2.d3f16378.chunk.js",
+    "static/js/2.d3f16378.chunk.js.map": "/static/js/2.d3f16378.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.95f25948.chunk.css.map": "/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.6057f9b8.chunk.css.map": "/static/css/main.6057f9b8.chunk.css.map",
+    "static/js/2.d3f16378.chunk.js.LICENSE.txt": "/static/js/2.d3f16378.chunk.js.LICENSE.txt",
+    "static/media/QR.bedf6eab.jpeg": "/static/media/QR.bedf6eab.jpeg",
+    "static/media/anonymous.9527019f.png": "/static/media/anonymous.9527019f.png",
+    "static/media/backend-azul.fda72797.png": "/static/media/backend-azul.fda72797.png",
+    "static/media/backend.7921cdda.png": "/static/media/backend.7921cdda.png",
+    "static/media/front-end.f8c47668.png": "/static/media/front-end.f8c47668.png",
+    "static/media/gamepad.0b0f7ca8.png": "/static/media/gamepad.0b0f7ca8.png",
+    "static/media/laptops.30aff3fa.png": "/static/media/laptops.30aff3fa.png",
+    "static/media/trompeta.d021133e.png": "/static/media/trompeta.d021133e.png",
+    "static/media/vinilo.153a2600.png": "/static/media/vinilo.153a2600.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0519cf17.js",
+    "static/css/2.95f25948.chunk.css",
+    "static/js/2.d3f16378.chunk.js",
+    "static/css/main.6057f9b8.chunk.css",
+    "static/js/main.ec1fd8de.chunk.js"
+  ]
+}

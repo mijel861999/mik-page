@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 //css
 import './styles/Landing.css';
+
 //img
 import music from '../images/trompeta.png';
 import dev from '../images/backend-azul.png';

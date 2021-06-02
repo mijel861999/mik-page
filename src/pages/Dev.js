@@ -16,6 +16,16 @@ import frontend from '../images/front-end.png';
 import gamepad from '../images/gamepad.png';
 
 class Dev extends React.Component{
+    constructor(props){
+        super(props);
+        // this.state={
+        //     loading: true,
+        //     error: null,
+        //     data: undefined,
+        // }
+    }
+
+
     render(){
         return(
             <React.Fragment>

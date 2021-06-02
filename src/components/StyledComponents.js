@@ -15,6 +15,7 @@ export const ButtonText = styled(Link)`
         background-color: black;
         text-decoration: none;
         color: #D9A84E;
+        transition: color 0.1s linear 0.1s;
     }
 
     @media screen and (max-width : 768px){
@@ -31,6 +32,38 @@ export const ButtonText = styled(Link)`
         }
     }
 `;
+
+export const LinkText = styled.a`
+    padding-right: 0;
+    color: black;
+    padding: 3px 25px;
+    border: 2px solid ${props => props.card ? "#A66038" : 'black'};
+    background: ${props => props.primary ? '#D9A84E' : 'black'}; 
+    border-radius: 6px;
+    
+
+    &:hover{
+        background-color: black;
+        text-decoration: none;
+        color: #D9A84E;
+        transition: color 0.1s linear 0.1s;
+    }
+
+    @media screen and (max-width : 768px){
+        & {
+            font-size: 12px;
+            color: black;
+            padding: 3px 20px;
+        }
+    }    
+
+    @media screen and (max-width : 540px){
+        &{
+            font-size: 10px;
+        }
+    }
+`;
+
 
 export const LinkMIK = styled(Link)`
     padding-right: 30px;
@@ -105,7 +138,9 @@ export const FirstCard = styled.div`
         width: 400px;
         height: 250px;
         border-radius: 20px;
-        padding: 40px 40px 40px 40px;
+        padding: 0px 40px 0px 40px;
+        display:flex;
+        justify-content: center;
         ${props=>{
             if(props.blue){
                 return`
@@ -117,6 +152,11 @@ export const FirstCard = styled.div`
                 `
             }
         }}
+    }
+
+    & .card-image img{
+        height: 100%;
+        
     }
 
     & .content-text{
@@ -219,6 +259,16 @@ export const Container =styled.div`
     position: relative;
     z-index: 100;
     width: 100%;
+`;
+
+export const Loader=styled.div`
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
 `;
 
 
